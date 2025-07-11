@@ -1,6 +1,6 @@
 package Inheritance;
 
-class Shape{
+class Shapes{
     public void area()
     {
         System.out.println("Print area");
@@ -8,7 +8,7 @@ class Shape{
 }
 // by using extends keyword we inherite another class
 
-class Triangles extends Shape{
+class Triangles extends Shapes{
     public void area(int b,int h)
     {
         System.out.println("Area is : " + ((0.5)*b*h));
